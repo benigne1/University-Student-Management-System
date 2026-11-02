@@ -34,8 +34,10 @@ public class Main {
                     studentDAO.addStudent(name, email);
                     System.out.println("Student added.");
 
-                } else if (choice == 2) {
-                    studentDAO.listStudents();
+                }                  else if (choice == 2) {
+                System.out.println("TEST: option 2 started");
+                studentDAO.listStudents();
+                System.out.println("TEST: option 2 finished");
 
                 } else if (choice == 3) {
                     System.out.print("Student id: ");
